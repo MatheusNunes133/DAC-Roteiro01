@@ -1,6 +1,8 @@
 package com.dac.exercicio1.dacexercicio1.models;
 
-public class UserModel {
+import java.io.Serializable;
+
+public class UserModel implements Serializable {
 
     private Long id;
     private String name;
